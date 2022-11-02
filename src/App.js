@@ -53,33 +53,33 @@ function App() {
             <div className='first-skills'>
               <div className='name-skill'>
                 <p>Javascript</p>
-                <i class="fa-brands fa-square-js fa-8x"></i>
+                <img className='icon' alt='Js' src='/js.svg'></img>
               </div>
               <div className='name-skill'>
                 <p>React Native</p>
-                <img className='C' alt='C' src='/react.svg'></img>
+                <img className='icon' alt='React' src='/react.svg'></img>
               </div>
               <div className='name-skill'>
                 <p>Html</p>
-                <i class="fa-brands fa-html5 fa-8x"></i>
+                <img className='icon' alt='html' src='/html.svg'></img>
               </div>
               <div className='name-skill'>
                 <p>Css</p>
-                <i class="fa-brands fa-css3-alt fa-8x"></i>
+                <img className='icon' alt='Css' src='/css.svg'></img>
               </div>
             </div>
             <div className='second-skills'>
               <div className='name-skill'>
                 <p>C</p>
-                <img className='C' alt='C' src='/C.svg'></img>
+                <img className='icon' alt='C' src='/C.svg'></img>
               </div>
               <div className='name-skill'>
                 <p>C++</p>
-                <img className='C' alt='C' src='/C++.svg'></img>
+                <img className='icon' alt='C++' src='/C++.svg'></img>
               </div>
               <div className='name-skill'>
                 <p>Python</p>
-                <img className='C' alt='C' src='/python.svg'></img>
+                <img className='icon' alt='Pyhton' src='/python.svg'></img>
               </div>
             </div>
           </div> : null
