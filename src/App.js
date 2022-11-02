@@ -1,6 +1,11 @@
 import { useState } from 'react';
 import Typewriter from "typewriter-effect";
-import './style.css'
+import './styles/style.css'
+import './styles/homePage.css'
+import './styles/aboutMe.css'
+import './styles/skills.css'
+import './styles/contact.css'
+import './styles/topBar.css'
 
 function App() {
   const [valueButton, setValueButton] = useState("home");
