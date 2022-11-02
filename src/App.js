@@ -49,6 +49,7 @@ function App() {
         {
           valueButton === 'skills' ?
           <div className='skills'>
+            <h1 className='mySkills'>My skills</h1>
             <div className='first-skills'>
               <div className='name-skill'>
                 <p>Javascript</p>
@@ -90,11 +91,11 @@ function App() {
             <div className='icons'>
               <a href='https://www.linkedin.com/in/martin-ramdane-0874a7233/'><img className='contact-icons' alt='linkedin' src='/linkedin.svg'></img></a>
               <a href='https://github.com/MartinRamdane'><img className='contact-icons' alt='github' src='/github.svg'></img></a>
-              <a href='mailto:martin.ramdane@gmail.com'><img className='contact-icons' alt='mail' src='/mail.svg'></img></a>
+              <a href='mailto:martin@martinramdane.fr'><img className='contact-icons' alt='mail' src='/mail.svg'></img></a>
             </div>
             <div className='myEmail'>
               <p>Email: </p>
-              <p className='email'>martin.ramdane@gmail.com</p>
+              <p className='email'>martin@martinramdane.fr</p>
             </div>
           </div> : null
         }
