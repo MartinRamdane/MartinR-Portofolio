@@ -34,10 +34,10 @@ function App() {
               .typeString("I'm a french IT student.")
               .pauseFor(1000)
               .deleteAll()
-              .typeString("I'm a developper.")
+              .typeString("I'm a developer.")
               .pauseFor(1000)
               .deleteAll()
-              .typeString("I'm a french IT student and developper.")
+              .typeString("I'm a french IT student and developpr.")
               .start();}}/></h1>
             </div>
             <img className='me' alt='me' src='/me.jpeg'></img>
