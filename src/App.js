@@ -61,7 +61,7 @@ function App() {
               <img className='icon' alt='Js' src='/js.svg'></img>
             </div>
             <div className='name-skill'>
-              <p>React Native</p>
+              <p>React</p>
               <img className='icon' alt='React' src='/react.svg'></img>
             </div>
             <div className='name-skill'>
