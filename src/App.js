@@ -42,7 +42,11 @@ function App() {
             </div>
             <img className='me' alt='me' src='/me.jpeg'></img>
           </div>
-          <div className='bottom'></div>
+          <div className='bottom'>
+            <p className='miniPresentation'>
+              I am currently a 19 years old student at Epitech Marseille, a school specialized in development. I'm passionate about coding and I like to learn new technologies.
+            </p>
+          </div>
         </div> : null
       }
       {
