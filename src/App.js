@@ -52,7 +52,35 @@ function App() {
       {
         valueButton === 'about me' ?
         <div className='aboutMe'>
-          <h1 className='title-text'>Coming soon... ⏳</h1>
+          <div className='parcours'>
+            <h1 className='mini-title'>Mon parcours:</h1>
+            <div className='step'>
+              <div className='container-orga-date'>
+                <h2 className='steps-text'>Expert en technologie de l'information</h2>
+                <h2 className='date-text'>2021-2026</h2>
+              </div>
+              <h4 className='location'>Epitech</h4>
+              <p className='infos'>Programme grande école.</p>
+            </div>
+            <div className='step'>
+              <div className='container-orga-date'>
+                <h2 className='steps-text'>Baccalauréat</h2>
+                <h2 className='date-text'>2018-2021</h2>
+              </div>
+              <h4 className='location'>Lycée Arthur Rimbaud</h4>
+              <p className='infos'>Baccalauréat spécialité Numérique et sciences informatiques, Mathématiques et Physique-Chimie.</p>
+              <p className='infos'>Mention assez bien.</p>
+            </div>
+            <div className='step'>
+              <div className='container-orga-date'>
+                <h2 className='steps-text'>Brevet des collèges</h2>
+                <h2 className='date-text'>2014-2018</h2>
+              </div>
+              <h4 className='location'>Collège Alain Savary</h4>
+              <p className='infos'>Mention bien.</p>
+            </div>
+
+          </div>
         </div> : null
       }
       {

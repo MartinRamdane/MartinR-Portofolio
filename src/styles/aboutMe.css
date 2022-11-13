@@ -1,8 +1,74 @@
 .aboutMe {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    height: auto;
     align-items: center;
-    justify-content: center;
+}
+
+.parcours {
+    display: flex;
+    flex-direction: column;
+    margin-top: 85px;
+    gap: 50px;
+    padding-bottom: 75px;
+}
+
+.mini-title {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-align: center;
+}
+
+.container-orga-date {
+    display: flex;
+    flex-direction: row;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    padding-bottom: 35px;
+    gap: 15px;
+}
+
+.steps-text {
+    color: rgb(220, 220, 220);
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    flex: 1;
+    margin: 0;
+}
+
+.date-text {
+    color: rgb(220, 220, 220);
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    flex: 1;
+    text-align: end;
+    margin: 0;
+}
+
+.location {
+    width: fit-content;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin: 0;
+    background-color: rgb(24, 146, 24);
+    border-radius: 2em;
+    padding: 2px 8px;
+}
+
+.infos {
+    color: rgb(210, 210, 210);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin: 0;
 }
