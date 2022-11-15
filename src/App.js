@@ -10,7 +10,7 @@ import './styles/style.css'
 function App() {
   const [valueButton, setValueButton] = useState("home");
   return (
-    <div className='body'>
+    <div className='container'>
       <div className='topBar'>
         <label className='name'>Martin Ramdane</label>
         <div className='buttonContainer'>
