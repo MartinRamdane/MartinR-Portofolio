@@ -6,7 +6,7 @@
     height: 100%;
     align-items: center;
     margin-top: 10em;
-    gap: 150px;
+    gap: 175px;
 }
 
 .top {
@@ -53,6 +53,7 @@
 
 .miniPresentation {
     width: 700px;
+    padding-left: 160px;
     color: rgb(180, 180, 180);
     font-size:larger;
 }
